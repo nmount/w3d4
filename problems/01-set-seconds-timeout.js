@@ -16,7 +16,9 @@ Examples:
 
 
 ***********************************************************************/
-
+function setSecondsTimeout(cb, delay) {
+  setTimeout(cb, delay * 1000);
+}
 
 
 setSecondsTimeout(function () {
